@@ -116,4 +116,16 @@ public class BioclipseLoggingTool implements ILoggingTool {
 		logger.warn(result.toString());
 	}
 
+	@Override
+	public int getLevel() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setLevel(int arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
